@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <h1>DOM in JS</h1> -->
+    <!-- <div id="bulb">
+
+    </div>
+    <button>ON</button> -->
+
+    <!-- <h1>Hello 1</h1>
+    <h1>Hello 2</h1>
+    <h1>Hello 3</h1> -->
+
+    <!-- Ajax -->
+    <!-- <div id="demo">
+        <h1>AJAX is a developer's dream</h1>
+        <p><button onclick="loadData()">Change this content</button></p>
+    </div> -->
+
+    <script src="index.js"></script>
+
+    <!-- Erroe handling -->
+
+    <p id="demo"></p>
+    <script>
+      try {
+        adddlert("welcom guest!");//normal code
+      } catch (err) {//err is a object which return two properties name and message of a error..like syntax error,undefined
+        document.getElementById("demo").innerHTML = err.message;//handling code
+      }
+    </script>
+  </body>
+</html>
